@@ -30,3 +30,17 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
+
+function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "",
+        Password : "",
+        To : '',
+        From : document.getElementById("email").value,
+        Subject : document.getElementById("subject").value,
+        Body : document.getElementById("message").value,
+    }).then(
+      message => alert(message)
+    );
+}
