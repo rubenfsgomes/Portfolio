@@ -292,7 +292,6 @@ h6{font-size: 16px;}
     grid-template-columns: repeat(auto-fit, 320px);
     gap: 20px;
     justify-content: center;
-    cursor: pointer;
     padding-bottom: 50px;
 }
 
@@ -308,6 +307,7 @@ h6{font-size: 16px;}
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
 
 .post-preview{
